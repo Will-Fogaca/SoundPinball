@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/05/31 11:08:42.000.770,=C:\Users\suporte2\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/06/18 15:21:17.000.669,=C:\Users\suporte2\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/06/19 14:44:38.000.364,=C:\Users\suporte2\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/08/05 11:30:43.000.736,=C:\Users\suporte2\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/08/05 11:32:17.000.633,C:\Users\suporte2\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\SoundPinball\Unit_form_main.pas</Transaction>
+    <Transaction>2024/08/05 11:32:17.000.633,C:\Users\suporte2\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\SoundPinball\Unit_form_main.fmx</Transaction>
+    <Transaction>2024/08/05 11:32:23.000.289,C:\Users\suporte2\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\SoundPinball\SoundPinball.dproj</Transaction>
+    <Transaction>2024/08/05 11:54:26.400,=C:\SoundPinball\Unit1.pas</Transaction>
+    <Transaction>2024/08/05 11:54:33.181,C:\SoundPinball\Unit_func_procedures.pas=C:\SoundPinball\Unit1.pas</Transaction>
+    <Transaction>2024/08/05 12:48:51.855,=C:\SoundPinball\Unit1.pas</Transaction>
+    <Transaction>2024/08/05 12:48:56.307,C:\SoundPinball\Unit_form_sons.pas=C:\SoundPinball\Unit1.pas</Transaction>
+    <Transaction>2024/08/05 12:48:56.307,C:\SoundPinball\Unit_form_sons.fmx=C:\SoundPinball\Unit1.fmx</Transaction>
+    <Transaction>2024/08/05 12:51:23.307,C:\SoundPinball\Unit_form_sons.pas=</Transaction>
+    <Transaction>2024/08/05 13:19:16.674,C:\SoundPinball\Unit_form_menu.pas=C:\SoundPinball\Unit_form_main.pas</Transaction>
+    <Transaction>2024/08/05 13:19:16.674,C:\SoundPinball\Unit_form_menu.fmx=C:\SoundPinball\Unit_form_main.fmx</Transaction>
+  </Transactions>  <ActiveMobileDevice>   <NoProfile Android="d2038474"/>
+  </ActiveMobileDevice>
+</BorlandProject>
