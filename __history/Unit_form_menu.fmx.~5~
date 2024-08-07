@@ -3,14 +3,14 @@ object form_menu: Tform_menu
   Top = 0
   Caption = 'Sound Pinball'
   ClientHeight = 700
-  ClientWidth = 450
+  ClientWidth = 437
   Fill.Color = claMediumblue
   Fill.Kind = Solid
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
   DesignerMasterStyle = 0
-  object S: TRectangle
+  object rect_opcoes: TRectangle
     Align = Center
     Fill.Kind = None
     Size.Width = 405.000000000000000000
@@ -2202,7 +2202,7 @@ object form_menu: Tform_menu
   object lbl_titulo: TLabel
     Align = Top
     StyledSettings = []
-    Size.Width = 450.000000000000000000
+    Size.Width = 437.000000000000000000
     Size.Height = 97.000000000000000000
     Size.PlatformDefault = False
     TextSettings.Font.Family = 'Impact'
@@ -2216,7 +2216,7 @@ object form_menu: Tform_menu
   object Layout1: TLayout
     Align = Bottom
     Position.Y = 523.000000000000000000
-    Size.Width = 450.000000000000000000
+    Size.Width = 437.000000000000000000
     Size.Height = 177.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 4

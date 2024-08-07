@@ -42,6 +42,7 @@ uses Unit_func_procedures, Unit_form_sons, Unit_form_game;
 procedure Tform_menu.rect_iniciarClick(Sender: TObject);
 begin
   EmitirSom(mp_Menu, 'GameStart.mp3');
+
   if not Assigned(form_game) then
     form_game := Tform_game.Create(Application);
 

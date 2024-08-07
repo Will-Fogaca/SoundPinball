@@ -9,7 +9,7 @@ uses
 
 type
   Tform_menu = class(TForm)
-    S: TRectangle;
+    rect_opcoes: TRectangle;
     rect_iniciar: TRectangle;
     mp_Menu: TMediaPlayer;
     lbl_iniciar: TLabel;
@@ -37,15 +37,15 @@ implementation
 
 {$R *.fmx}
 
-uses Unit_func_procedures, Unit_form_sons, Unit_form_game;
+uses Unit_func_procedures, Unit_form_sons,Unit_form_game;
 
 procedure Tform_menu.rect_iniciarClick(Sender: TObject);
 begin
   EmitirSom(mp_Menu, 'GameStart.mp3');
+
   if not Assigned(form_game) then
     form_game := Tform_game.Create(Application);
-
-  form_game.Show;
+  
 end;
 
 end.
