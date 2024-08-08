@@ -8,7 +8,6 @@ uses
 procedure EmitirSom(MediaPlayer: TMediaPlayer; nomeSom: String);
 
 
-
 implementation
 
 uses
@@ -18,11 +17,9 @@ procedure EmitirSom(MediaPlayer: TMediaPlayer; nomeSom: String);
 var
   FullPath: string;
 begin
-  {$IF DEFINED(MSWINDOWS)}
-    FullPath := TPath.Combine(ExtractFilePath(ParamStr(0)), TPath.Combine('Sons', nomeSom));
-  {$ELSE}
-    FullPath := TPath.Combine(TPath.GetDocumentsPath, TPath.Combine('Sons', nomeSom));
-  {$ENDIF}
+  // Use um caminho relativo ao diretório do executável
+  FullPath := TPath.Combine(ExtractFilePath(ParamStr(0)), nomeSom);
+
   if FileExists(FullPath) then
   begin
     MediaPlayer.FileName := FullPath;

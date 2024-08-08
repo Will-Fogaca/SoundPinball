@@ -1,0 +1,35 @@
+unit Unit_func_procedures;
+
+interface
+
+uses
+  FMX.Media;
+
+procedure EmitirSom(MediaPlayer: TMediaPlayer; nomeSom: String);
+
+
+implementation
+
+uses
+  FMX.Dialogs, System.SysUtils, System.IOUtils;
+
+procedure EmitirSom(MediaPlayer: TMediaPlayer; nomeSom: String);
+var
+  FullPath: string;
+begin
+  {$IF DEFINED(MSWINDOWS)}
+    // Caminho absoluto para Windows
+    FullPath := TPath.Combine('C:\Github\SoundPinball\SoundPinball', nomeSom);
+  {$ELSE}
+    // Caminho relativo para outros sistemas
+    FullPath := TPath.Combine(TPath.GetDocumentsPath, TPath.Combine('Sons', nomeSom));
+  {$ENDIF}
+  if FileExists(FullPath) then
+  begin
+    MediaPlayer.FileName := FullPath;
+    MediaPlayer.Play;
+  end
+  else
+    ShowMessage('Arquivo de som não encontrado: ' + FullPath);]
+end;
+end.

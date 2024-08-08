@@ -9,7 +9,16 @@
     </PropertyGroup>
     <ItemGroup Condition="'$(Platform)'=='Win64'"/>
     <ItemGroup Condition="'$(Platform)'=='Win32'">
-        <DeployFile Include="SoundPinball.exe" Condition="'$(Config)'=='Debug'">
+        <DeployFile Include="Sons\GameStart.mp3" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SoundPinball\</RemoteDir>
+            <RemoteName>GameStart.mp3</RemoteName>
+            <DeployClass>File</DeployClass>
+            <Operation>0</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="C:\SoundPinball\SoundPinball.exe" Condition="'$(Config)'=='Debug'">
             <RemoteDir>SoundPinball\</RemoteDir>
             <RemoteName>SoundPinball.exe</RemoteName>
             <DeployClass>ProjectOutput</DeployClass>
@@ -31,10 +40,10 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="Android\Debug\strings.xml" Condition="'$(Config)'=='Debug'">
+        <DeployFile Include="styles.xml" Condition="'$(Config)'=='Debug'">
             <RemoteDir>SoundPinball\res\values\</RemoteDir>
-            <RemoteName>strings.xml</RemoteName>
-            <DeployClass>Android_Strings</DeployClass>
+            <RemoteName>styles.xml</RemoteName>
+            <DeployClass>AndroidSplashStyles</DeployClass>
             <Operation>1</Operation>
             <LocalCommand/>
             <RemoteCommand/>
@@ -49,34 +58,6 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="Android\Debug\styles-v21.xml" Condition="'$(Config)'=='Debug'">
-            <RemoteDir>SoundPinball\res\values-v21\</RemoteDir>
-            <RemoteName>styles.xml</RemoteName>
-            <DeployClass>AndroidSplashStylesV21</DeployClass>
-            <Operation>1</Operation>
-            <LocalCommand/>
-            <RemoteCommand/>
-            <Overwrite>True</Overwrite>
-        </DeployFile>
-        <DeployFile Include="Android\Debug\libSoundPinball.so" Condition="'$(Config)'=='Debug'">
-            <RemoteDir>SoundPinball\library\lib\armeabi-v7a\</RemoteDir>
-            <RemoteName>libSoundPinball.so</RemoteName>
-            <DeployClass>ProjectOutput</DeployClass>
-            <Operation>1</Operation>
-            <LocalCommand/>
-            <RemoteCommand/>
-            <Overwrite>True</Overwrite>
-            <Required>True</Required>
-        </DeployFile>
-        <DeployFile Include="Android\Debug\colors.xml" Condition="'$(Config)'=='Debug'">
-            <RemoteDir>SoundPinball\res\values\</RemoteDir>
-            <RemoteName>colors.xml</RemoteName>
-            <DeployClass>Android_Colors</DeployClass>
-            <Operation>1</Operation>
-            <LocalCommand/>
-            <RemoteCommand/>
-            <Overwrite>True</Overwrite>
-        </DeployFile>
         <DeployFile Include="Sons\GameStart.mp3" Condition="'$(Config)'=='Debug'">
             <RemoteDir>SoundPinball\assets\internal\Sons\</RemoteDir>
             <RemoteName>GameStart.mp3</RemoteName>
@@ -86,10 +67,10 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="Android\Debug\splash_image_def.xml" Condition="'$(Config)'=='Debug'">
-            <RemoteDir>SoundPinball\res\drawable\</RemoteDir>
-            <RemoteName>splash_image_def.xml</RemoteName>
-            <DeployClass>AndroidSplashImageDef</DeployClass>
+        <DeployFile Include="styles-v21.xml" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SoundPinball\res\values-v21\</RemoteDir>
+            <RemoteName>styles.xml</RemoteName>
+            <DeployClass>AndroidSplashStylesV21</DeployClass>
             <Operation>1</Operation>
             <LocalCommand/>
             <RemoteCommand/>
@@ -104,19 +85,19 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="$(BDS)\lib\android\debug\mips\libnative-activity.so" Condition="'$(Config)'=='Debug'">
-            <RemoteDir>SoundPinball\library\lib\mips\</RemoteDir>
-            <RemoteName>libSoundPinball.so</RemoteName>
-            <DeployClass>AndroidLibnativeMipsFile</DeployClass>
+        <DeployFile Include="$(BDS)\bin\Artwork\Android\FM_NotificationIcon_24x24.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SoundPinball\res\drawable-mdpi\</RemoteDir>
+            <RemoteName>ic_notification.png</RemoteName>
+            <DeployClass>Android_NotificationIcon24</DeployClass>
             <Operation>1</Operation>
             <LocalCommand/>
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="$(BDS)\bin\Artwork\Android\FM_NotificationIcon_24x24.png" Condition="'$(Config)'=='Debug'">
-            <RemoteDir>SoundPinball\res\drawable-mdpi\</RemoteDir>
-            <RemoteName>ic_notification.png</RemoteName>
-            <DeployClass>Android_NotificationIcon24</DeployClass>
+        <DeployFile Include="$(BDS)\lib\android\debug\mips\libnative-activity.so" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SoundPinball\library\lib\mips\</RemoteDir>
+            <RemoteName>libSoundPinball.so</RemoteName>
+            <DeployClass>AndroidLibnativeMipsFile</DeployClass>
             <Operation>1</Operation>
             <LocalCommand/>
             <RemoteCommand/>
@@ -185,15 +166,6 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="$(BDS)\bin\Artwork\Android\FM_LauncherIcon_48x48.png" Condition="'$(Config)'=='Debug'">
-            <RemoteDir>SoundPinball\res\drawable-mdpi\</RemoteDir>
-            <RemoteName>ic_launcher.png</RemoteName>
-            <DeployClass>Android_LauncherIcon48</DeployClass>
-            <Operation>1</Operation>
-            <LocalCommand/>
-            <RemoteCommand/>
-            <Overwrite>True</Overwrite>
-        </DeployFile>
         <DeployFile Include="$(BDS)\bin\Artwork\Android\FM_LauncherIcon_144x144.png" Condition="'$(Config)'=='Debug'">
             <RemoteDir>SoundPinball\res\drawable-xxhdpi\</RemoteDir>
             <RemoteName>ic_launcher.png</RemoteName>
@@ -207,6 +179,33 @@
             <RemoteDir>SoundPinball\res\drawable-xxxhdpi\</RemoteDir>
             <RemoteName>ic_launcher.png</RemoteName>
             <DeployClass>Android_LauncherIcon192</DeployClass>
+            <Operation>1</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="$(BDS)\bin\Artwork\Android\FM_LauncherIcon_48x48.png" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SoundPinball\res\drawable-mdpi\</RemoteDir>
+            <RemoteName>ic_launcher.png</RemoteName>
+            <DeployClass>Android_LauncherIcon48</DeployClass>
+            <Operation>1</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="strings.xml" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SoundPinball\res\values\</RemoteDir>
+            <RemoteName>strings.xml</RemoteName>
+            <DeployClass>Android_Strings</DeployClass>
+            <Operation>1</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="AndroidManifest.xml" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SoundPinball\</RemoteDir>
+            <RemoteName>AndroidManifest.xml</RemoteName>
+            <DeployClass>ProjectAndroidManifest</DeployClass>
             <Operation>1</Operation>
             <LocalCommand/>
             <RemoteCommand/>
@@ -230,29 +229,39 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="Android\Debug\AndroidManifest.xml" Condition="'$(Config)'=='Debug'">
-            <RemoteDir>SoundPinball\</RemoteDir>
-            <RemoteName>AndroidManifest.xml</RemoteName>
-            <DeployClass>ProjectAndroidManifest</DeployClass>
-            <Operation>1</Operation>
-            <LocalCommand/>
-            <RemoteCommand/>
-            <Overwrite>True</Overwrite>
-        </DeployFile>
-        <DeployFile Include="Android\Debug\styles.xml" Condition="'$(Config)'=='Debug'">
-            <RemoteDir>SoundPinball\res\values\</RemoteDir>
-            <RemoteName>styles.xml</RemoteName>
-            <DeployClass>AndroidSplashStyles</DeployClass>
-            <Operation>1</Operation>
-            <LocalCommand/>
-            <RemoteCommand/>
-            <Overwrite>True</Overwrite>
-        </DeployFile>
-        <DeployFile Include="Android\Debug\SoundPinball.classes" Condition="'$(Config)'=='Debug'">
+        <DeployFile Include="SoundPinball.classes" Condition="'$(Config)'=='Debug'">
             <RemoteDir>SoundPinball\classes\</RemoteDir>
             <RemoteName>SoundPinball.classes</RemoteName>
             <DeployClass>AndroidClasses</DeployClass>
             <Operation>64</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="libSoundPinball.so" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SoundPinball\library\lib\armeabi-v7a\</RemoteDir>
+            <RemoteName>libSoundPinball.so</RemoteName>
+            <DeployClass>ProjectOutput</DeployClass>
+            <Operation>1</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+            <Required>True</Required>
+        </DeployFile>
+        <DeployFile Include="splash_image_def.xml" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SoundPinball\res\drawable\</RemoteDir>
+            <RemoteName>splash_image_def.xml</RemoteName>
+            <DeployClass>AndroidSplashImageDef</DeployClass>
+            <Operation>1</Operation>
+            <LocalCommand/>
+            <RemoteCommand/>
+            <Overwrite>True</Overwrite>
+        </DeployFile>
+        <DeployFile Include="colors.xml" Condition="'$(Config)'=='Debug'">
+            <RemoteDir>SoundPinball\res\values\</RemoteDir>
+            <RemoteName>colors.xml</RemoteName>
+            <DeployClass>Android_Colors</DeployClass>
+            <Operation>1</Operation>
             <LocalCommand/>
             <RemoteCommand/>
             <Overwrite>True</Overwrite>

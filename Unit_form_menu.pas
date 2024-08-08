@@ -9,20 +9,22 @@ uses
 
 type
   Tform_menu = class(TForm)
-    S: TRectangle;
+    lay_centro: TRectangle;
     rect_iniciar: TRectangle;
     mp_Menu: TMediaPlayer;
     lbl_iniciar: TLabel;
     img_iniciar: TImage;
-    lbl_titulo: TLabel;
     rect_suporte: TRectangle;
     lbl_suporte: TLabel;
     img_suporte: TImage;
     rect_historico: TRectangle;
     lbl_historico: TLabel;
     img_historico: TImage;
-    Layout1: TLayout;
+    lay_logo: TLayout;
     img_logo_eduvale: TImage;
+    lay_topo: TLayout;
+    lbl_titulo: TLabel;
+    img_logo_game: TImage;
     procedure rect_iniciarClick(Sender: TObject);
   private
     { Private declarations }

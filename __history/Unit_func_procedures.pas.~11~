@@ -1,0 +1,31 @@
+unit Unit_func_procedures;
+
+interface
+
+uses
+  FMX.Media;
+
+procedure EmitirSom(MediaPlayer: TMediaPlayer; nomeSom: String);
+
+
+implementation
+
+uses
+  FMX.Dialogs, System.SysUtils, System.IOUtils;
+
+var
+  FullPath: string;
+begin
+  // Use um caminho relativo ao diretório do executável
+  FullPath := TPath.Combine(ExtractFilePath(ParamStr(0)), nomeSom);
+
+  if FileExists(FullPath) then
+  begin
+    MediaPlayer.FileName := FullPath;
+    MediaPlayer.Play;
+  end
+  else
+    ShowMessage('Arquivo de som não encontrado: ' + FullPath);
+end;
+end;
+end.
