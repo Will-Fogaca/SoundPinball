@@ -5,24 +5,24 @@
     <Transaction>2024/06/18 15:21:17.000.669,=C:\Users\suporte2\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2024/06/19 14:44:38.000.364,=C:\Users\suporte2\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2024/08/05 11:30:43.000.736,=C:\Users\suporte2\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2024/08/05 11:32:17.000.633,C:\Users\suporte2\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\SoundPinball\Unit_form_main.fmx</Transaction>
-    <Transaction>2024/08/05 11:32:17.000.633,C:\Users\suporte2\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\SoundPinball\Unit_form_main.pas</Transaction>
-    <Transaction>2024/08/05 11:32:23.000.289,C:\Users\suporte2\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\SoundPinball\SoundPinball.dproj</Transaction>
+    <Transaction>2024/08/05 11:32:17.000.633,C:\SoundPinball\Unit_form_main.fmx=C:\Users\suporte2\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2024/08/05 11:32:17.000.633,C:\SoundPinball\Unit_form_main.pas=C:\Users\suporte2\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/08/05 11:32:23.000.289,C:\SoundPinball\SoundPinball.dproj=C:\Users\suporte2\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
     <Transaction>2024/08/05 11:54:26.000.400,=C:\SoundPinball\Unit1.pas</Transaction>
-    <Transaction>2024/08/05 11:54:33.000.181,C:\SoundPinball\Unit_func_procedures.pas=C:\SoundPinball\Unit1.pas</Transaction>
+    <Transaction>2024/08/05 11:54:33.000.181,C:\SoundPinball\Unit1.pas=C:\SoundPinball\Unit_func_procedures.pas</Transaction>
     <Transaction>2024/08/05 12:48:51.000.855,=C:\SoundPinball\Unit1.pas</Transaction>
-    <Transaction>2024/08/05 12:48:56.000.307,C:\SoundPinball\Unit_form_sons.pas=C:\SoundPinball\Unit1.pas</Transaction>
-    <Transaction>2024/08/05 12:48:56.000.307,C:\SoundPinball\Unit_form_sons.fmx=C:\SoundPinball\Unit1.fmx</Transaction>
+    <Transaction>2024/08/05 12:48:56.000.307,C:\SoundPinball\Unit1.pas=C:\SoundPinball\Unit_form_sons.pas</Transaction>
+    <Transaction>2024/08/05 12:48:56.000.307,C:\SoundPinball\Unit1.fmx=C:\SoundPinball\Unit_form_sons.fmx</Transaction>
     <Transaction>2024/08/05 12:51:23.000.307,C:\SoundPinball\Unit_form_sons.pas=</Transaction>
-    <Transaction>2024/08/05 13:19:16.000.674,C:\SoundPinball\Unit_form_menu.pas=C:\SoundPinball\Unit_form_main.pas</Transaction>
-    <Transaction>2024/08/05 13:19:16.000.674,C:\SoundPinball\Unit_form_menu.fmx=C:\SoundPinball\Unit_form_main.fmx</Transaction>
+    <Transaction>2024/08/05 13:19:16.000.674,C:\SoundPinball\Unit_form_main.pas=C:\SoundPinball\Unit_form_menu.pas</Transaction>
+    <Transaction>2024/08/05 13:19:16.000.674,C:\SoundPinball\Unit_form_main.fmx=C:\SoundPinball\Unit_form_menu.fmx</Transaction>
     <Transaction>2024/08/07 13:41:00.000.581,=C:\GitHub\SoundPinball\Unit1.pas</Transaction>
-    <Transaction>2024/08/07 13:41:04.000.383,C:\GitHub\SoundPinball\Unit1.fmx=C:\GitHub\SoundPinball\form_game.fmx</Transaction>
-    <Transaction>2024/08/07 13:41:04.000.383,C:\GitHub\SoundPinball\Unit1.pas=C:\GitHub\SoundPinball\form_game.pas</Transaction>
+    <Transaction>2024/08/07 13:41:04.000.383,C:\GitHub\SoundPinball\form_game.fmx=C:\GitHub\SoundPinball\Unit1.fmx</Transaction>
+    <Transaction>2024/08/07 13:41:04.000.383,C:\GitHub\SoundPinball\form_game.pas=C:\GitHub\SoundPinball\Unit1.pas</Transaction>
     <Transaction>2024/08/07 13:42:40.000.672,C:\GitHub\SoundPinball\form_game.pas=</Transaction>
     <Transaction>2024/08/07 13:42:54.000.865,=C:\GitHub\SoundPinball\Unit1.pas</Transaction>
-    <Transaction>2024/08/07 13:43:01.000.732,C:\GitHub\SoundPinball\Unit_form_game.pas=C:\GitHub\SoundPinball\Unit1.pas</Transaction>
-    <Transaction>2024/08/07 13:43:01.000.732,C:\GitHub\SoundPinball\Unit_form_game.fmx=C:\GitHub\SoundPinball\Unit1.fmx</Transaction>
+    <Transaction>2024/08/07 13:43:01.000.732,C:\GitHub\SoundPinball\Unit1.fmx=C:\GitHub\SoundPinball\Unit_form_game.fmx</Transaction>
+    <Transaction>2024/08/07 13:43:01.000.732,C:\GitHub\SoundPinball\Unit1.pas=C:\GitHub\SoundPinball\Unit_form_game.pas</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
 		<NoProfile Android=""/>
