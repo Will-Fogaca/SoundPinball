@@ -23,8 +23,12 @@
     <Transaction>2024/08/07 13:42:54.000.865,=C:\GitHub\SoundPinball\Unit1.pas</Transaction>
     <Transaction>2024/08/07 13:43:01.000.732,C:\GitHub\SoundPinball\Unit1.fmx=C:\GitHub\SoundPinball\Unit_form_game.fmx</Transaction>
     <Transaction>2024/08/07 13:43:01.000.732,C:\GitHub\SoundPinball\Unit1.pas=C:\GitHub\SoundPinball\Unit_form_game.pas</Transaction>
+    <Transaction>2024/08/12 17:23:06.809,=C:\GitHub\SoundPinball\Unit1.pas</Transaction>
+    <Transaction>2024/08/12 17:23:09.022,C:\GitHub\SoundPinball\Teste.pas=C:\GitHub\SoundPinball\Unit1.pas</Transaction>
+    <Transaction>2024/08/12 17:23:09.022,C:\GitHub\SoundPinball\Teste.fmx=C:\GitHub\SoundPinball\Unit1.fmx</Transaction>
+    <Transaction>2024/08/12 17:23:15.609,C:\GitHub\SoundPinball\Teste.pas=</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
-		<NoProfile Android=""/>
+		<NoProfile Android="d2038474" Android64="d2038474"/>
 	</ActiveMobileDevice>
 </BorlandProject>

@@ -25,6 +25,7 @@ type
     lay_topo: TLayout;
     lbl_titulo: TLabel;
     img_logo_game: TImage;
+    img_bola_brava: TImage;
     procedure rect_iniciarClick(Sender: TObject);
   private
     { Private declarations }
@@ -43,7 +44,7 @@ uses Unit_func_procedures, Unit_form_sons, Unit_form_game;
 
 procedure Tform_menu.rect_iniciarClick(Sender: TObject);
 begin
-  EmitirSom(mp_Menu, 'GameStart.mp3');
+//  EmitirSom(mp_Menu, 'GameStart.mp3');
   if not Assigned(form_game) then
     form_game := Tform_game.Create(Application);
 
